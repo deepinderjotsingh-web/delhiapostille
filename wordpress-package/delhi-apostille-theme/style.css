@@ -1,0 +1,14 @@
+/*
+Theme Name: Delhi Apostille
+Theme URI: https://www.delhi-apostille.in
+Author: Delhi Apostille
+Author URI: https://www.delhi-apostille.in
+Description: A premium, SEO-friendly WordPress theme for apostille, attestation and embassy legalisation services. Fully dynamic content via Services (custom post type), Posts and the Customizer. Institutional navy & gold design.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: delhi-apostille
+Tags: business, services, seo, custom-logo, custom-menu, featured-images, blog
+*/
+
+/* Primary stylesheet is enqueued from assets/css/theme.css via functions.php */

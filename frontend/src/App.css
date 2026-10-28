@@ -1,0 +1,17 @@
+/* Delhi Apostille preview styles */
+.App { min-height: 100vh; }
+
+.hero-noise {
+    background-image: radial-gradient(circle at 20% 20%, rgba(197,164,78,0.08), transparent 40%),
+                      radial-gradient(circle at 80% 0%, rgba(30,58,138,0.06), transparent 45%);
+}
+
+.seal-spin { animation: seal-spin 30s linear infinite; }
+@keyframes seal-spin { to { transform: rotate(360deg); } }
+
+.marquee-track {
+    display: flex;
+    width: max-content;
+    animation: marquee 28s linear infinite;
+}
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }

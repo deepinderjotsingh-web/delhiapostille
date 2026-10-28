@@ -1,0 +1,111 @@
+{
+  "project_name": "Delhi Apostille & Attestation Services",
+  "domain": "www.delhi-apostille.in",
+  "app_type": "marketing_site",
+  "design_archetype": "ARCHETYPE 5: LUXURY & INSTITUTIONAL LEGAL AUTHORITY",
+  "theme": "Light theme primary with deep navy institutional accents, gold notary highlights, and crisp government badge styling",
+  "typography": {
+    "heading_font": "Merriweather, Playfair Display, Cormorant Garamond, serif",
+    "body_font": "Plus Jakarta Sans, system-ui, -apple-system, sans-serif",
+    "mono_font": "JetBrains Mono, monospace",
+    "hierarchy": {
+      "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-serif font-bold tracking-tight text-[#0A192F] leading-[1.15]",
+      "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-[#0A192F] tracking-tight leading-tight",
+      "h3_card": "text-xl sm:text-2xl font-sans font-semibold text-[#0A192F]",
+      "h4_sub": "text-lg sm:text-xl font-sans font-medium text-[#1E293B]",
+      "body_text": "text-base text-[#334155] leading-relaxed",
+      "small_label": "text-xs font-semibold tracking-wider uppercase text-[#B48B28]"
+    }
+  },
+  "colors": {
+    "primary_navy": "#0A192F",
+    "secondary_navy_light": "#1E3A8A",
+    "notary_gold": "#C5A44E",
+    "gold_amber_hover": "#B48B28",
+    "background_warm_ivory": "#FAF8F5",
+    "surface_white": "#FFFFFF",
+    "surface_tinted": "#F1F5F9",
+    "border_subtle": "#E2E8F0",
+    "border_gold_light": "#E9D8A6",
+    "text_dark": "#0F172A",
+    "text_muted": "#475569",
+    "accent_approval_green": "#059669",
+    "accent_whatsapp_green": "#25D366"
+  },
+  "spacing_and_layout": {
+    "container_padding": "px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto",
+    "section_gap": "py-16 md:py-24",
+    "card_padding": "p-6 sm:p-8",
+    "grid_modes": {
+      "services_grid": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8",
+      "authority_grid": "grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 sm:gap-6",
+      "process_steps": "grid grid-cols-1 md:grid-cols-4 gap-6 relative"
+    }
+  },
+  "key_components": {
+    "navigation_header": {
+      "style": "Sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm",
+      "elements": [
+        "Top bar with Emergency Hotline, WhatsApp Quick Link, Email, MEA Approval Reg No.",
+        "Brand Logo with Government Seal Motif & Delhi Apostille Title",
+        "Mega-menu desktop links: Services (Apostille, Attestation, Embassy, HRD/SDM), Document Types, Countries, Process, Blog, Contact",
+        "Primary CTA button: 'Get Free Quote' with Gold/Navy highlight"
+      ]
+    },
+    "hero_section": {
+      "style": "bg-gradient-to-b from-[#FAF8F5] via-[#F1F5F9] to-white relative pt-10 pb-20 border-b border-slate-200",
+      "layout": "2-column split (Left: Headline + Trust Badges + Authority Badges; Right: Interactive Instant Quote / Document Estimator Form)",
+      "trust_signals": [
+        "MEA Authorized Document Processing",
+        "100% ISO Certified & Government Recognized",
+        "50,000+ Attested Documents",
+        "Free Pickup & Express Doorstep Delivery in Delhi NCR"
+      ]
+    },
+    "services_section": {
+      "title": "Government Approved Apostille & Attestation Services",
+      "cards": [
+        "MEA Apostille Services (Hague Convention Countries)",
+        "Educational Certificate Attestation (Degree, Diploma, Marksheet)",
+        "Personal Document Attestation (Birth, Marriage, Death, Affidavit)",
+        "Commercial Document Attestation (GST, Power of Attorney, Invoice)",
+        "Embassy Legalization (UAE, Saudi, Qatar, Kuwait, Oman, China)",
+        "State HRD / SDM / Home Dept Verification",
+        "Chamber of Commerce Certification",
+        "Certified Sworn Language Translation"
+      ]
+    },
+    "attestation_departments": [
+      "Ministry of External Affairs (MEA India)",
+      "Sub-Divisional Magistrate (SDM Delhi)",
+      "Human Resource Development (HRD)",
+      "Home Department (Delhi & All States)",
+      "Chamber of Commerce",
+      "Foreign Embassies & Consulates"
+    ],
+    "process_4_step": [
+      {"step": "01", "title": "Submit Documents", "desc": "Upload digital scan or request free doorstep courier pickup in Delhi NCR."},
+      {"step": "02", "title": "State & Dept Verification", "desc": "Verification from SDM, HRD, or Home Department as required by jurisdiction."},
+      {"step": "03", "title": "MEA Apostille / Embassy Stamp", "desc": "Official apostille sticker or legal embassy stamp affixed by MEA authorized team."},
+      {"step": "04", "title": "Secure Express Delivery", "desc": "Tracked air delivery of verified original documents back to your address."}
+    ],
+    "sticky_ctas": {
+      "whatsapp_floating_button": "Fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-3.5 rounded-full shadow-2xl hover:scale-105 transition-all flex items-center gap-2 font-bold",
+      "bottom_bar_mobile": "Fixed bottom-0 left-0 right-0 z-40 bg-[#0A192F] text-white p-3 flex justify-between items-center md:hidden"
+    }
+  },
+  "image_urls": {
+    "hero_background_stamps": "https://images.unsplash.com/photo-1581553673739-c4906b5d0de8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwxfHxwYXNzcG9ydCUyMGxlZ2FsJTIwZG9jdW1lbnRzJTIwc3RhbXBzJTIwYXBwcm92YWwlMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc5MDc1MDAzNHww&ixlib=rb-4.1.0&q=85",
+    "passport_stamps_detail": "https://images.unsplash.com/photo-1655722725332-9925c96dd627?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODR8MHwxfHNlYXJjaHwyfHxwYXNzcG9ydCUyMGxlZ2FsJTIwZG9jdW1lbnRzJTIwc3RhbXBzJTIwYXBwcm92YWwlMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc5MDc1MDAzNHww&ixlib=rb-4.1.0&q=85",
+    "lawyer_consultation_desk": "https://images.pexels.com/photos/8112113/pexels-photo-8112113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "executive_document_signing": "https://images.unsplash.com/photo-1743017524261-f026c51acf7d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTV8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBJbmRpYW4lMjBsYXd5ZXIlMjBleGVjdXRpdmUlMjBvZmZpY2UlMjBkZXNrJTIwY29uc3VsdGF0aW9ufGVufDB8fHx8MTc5MDc1MDA0Mnww&ixlib=rb-4.1.0&q=85"
+  },
+  "instructions_to_main_agent": [
+    "Follow this guideline strictly for creating the Delhi Apostille live preview in React.",
+    "Ensure every interactive button, input, link, tab, modal, and item has explicit data-testid attributes (e.g. data-testid='hero-quote-submit-btn', data-testid='whatsapp-float-btn').",
+    "Avoid generic bright purple/violet gradients. Use deep institutional navy (#0A192F), soft warm ivory (#FAF8F5), and notary gold (#C5A44E) accents.",
+    "Ensure the header navigation is sticky with a non-transparent backdrop filter and high contrast links.",
+    "Build a rich multi-step or dynamic quote calculator (Select Document Type -> Select Department/Country -> Instant Estimate & Free Consultation Request).",
+    "Include schema-friendly FAQ accordions and authority department matrices to mirror an SEO-first WordPress site structure."
+  ]
+}
